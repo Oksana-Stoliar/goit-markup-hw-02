@@ -1,0 +1,112 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-button-color: #f5f4fa;
+  --primary-background-color: #ffffff;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primary-background-color);
+}
+/*Колір основного тексту #212121*/
+/*Вторинний колір тексту #757575*/
+/*Акцент #2196F3*/
+/*HEDER and FOOTER #2F303A*/
+/*Tel, mailto rgba(255, 255, 255, 0.6);*/
+/*Основне тло background: ##FFFFFF*/
+/*Додатковий колір кнопок #F5F4FA*/
+/*Утиліта для скидання точок ненумерованого списку*/
+.list {
+  list-style: none;
+}
+/*Стиль logo*/
+.logo {
+  color: #212121;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+/*Site nav*/
+.site-nav .link {
+  color: var(--primary-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/*Mail+tel*/
+.auth-nav .link {
+  color: var(--primary-text-color);
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+  color: var(--accent-color);
+}
+.auth-nav .tel {
+  color: var(--secondary-text-color);
+}
+.auth-nav .tel:hover,
+.auth-nav .tel:focus {
+  color: var(--accent-color);
+}
+/*Кнопки выбора портфолио*/
+.work-nav .link {
+  color: var(--primary-text-color);
+}
+.work-nav .link:hover,
+.work-nav .link:focus {
+  color: var(--accent-color);
+}
+/*Hero*/
+.hero-title {
+  color: var(--primary-text-color);
+}
+/* Button */
+.button {
+    color: var(--primary-background-color);
+    background-color: var(--accent-color);
+    border-color: transparent;
+}
+.button.primary {
+  color: var(--primary-background-color);
+  background-color: var(--accent-color);
+  border-color: transparent;
+}
+.button.secondary {
+  color: var(--primary-text-color);
+  background-color: var(--primary-button-color);
+  border-color: transparent;
+}
+/*Specifics*/
+.section .title {
+  color: var(--primary-text-color);
+}
+.section .post {
+  color: var(--secondary-text-color);
+}
+/*What do we do*/
+.section-title {
+  color: var(--primary-text-color);
+}
+/*Our team*/
+.team-title {
+  color: var(--primary-text-color);
+}
+.team-list .title {
+  color: var(--primary-text-color);
+}
+.team-list .post {
+  color: var(--secondary-text-color);
+}
+/*Work examples*/
+.work-title {
+  color: var(--primary-text-color);
+}
+.work-list .title {
+  color: var(--primary-text-color);
+}
+.work-list .post {
+  color: var(--secondary-text-color);
+}
