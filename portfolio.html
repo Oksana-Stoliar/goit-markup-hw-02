@@ -5,19 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio-portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
+
   <body>
     <!--Header-->
     <header>
       <nav>
-        <a href="/" class="logo">WebStudio</a>
+        <a href="/" class="logo">Web<span class="accent">Studio</span></a>
         <ul class="site-nav list">
           <li>
             <a href="./index.html" class="link">Студія</a>
           </li>
           <li>
-            <a href="./portfolio.html" class="link">Портфоліо</a>
+            <a href="./portfolio.html" class="link current">Портфоліо</a>
           </li>
           <li>
             <a href="" class="link">Контакти</a>
@@ -39,25 +44,34 @@
       <!--Buttons-->
       <section>
         <ul class="work-nav list">
-          <li><button type="button" class="button primary link">Усі</button></li>
-          <li><button type="button" class="button secondary">Веб-сайти</button></li>
-          <li><button type="button" class="button secondary">Додатки</button></li>
-          <li><button type="button" class="button secondary">Дизайн</button></li>
-          <li><button type="button" class="button secondary">Маркетинг</button></li>
+          <li>
+            <button type="button" class="button primary">Усі</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Веб-сайти</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Додатки</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Дизайн</button>
+          </li>
+          <li>
+            <button type="button" class="button secondary">Маркетинг</button>
+          </li>
         </ul>
       </section>
       <!--Portfolio-->
       <section>
-        <h1 class="work-title" hidden>Portfolio</h1>
         <ul class="work-list list">
           <li>
-            <img src="./images/img1.jpg" alt="Технокряк" width="370" height="294" />
+            <img src="./images/portfolio/techno.jpg" alt="Технокряк" width="370" height="294" />
             <h2 class="title">Технокряк</h2>
             <p class="post">Веб-сайт</p>
           </li>
           <li>
             <img
-              src="./images/img2.jpg"
+              src="./images/portfolio/poster.jpg"
               alt="Постер New Orlean vs Golden Star"
               width="370"
               height="294"
@@ -66,23 +80,28 @@
             <p class="post">Дизайн</p>
           </li>
           <li>
-            <img src="./images/img3.jpg" alt="Ресторан Seafood" width="370" height="294" />
+            <img
+              src="./images/portfolio/seafood.jpg"
+              alt="Ресторан Seafood"
+              width="370"
+              height="294"
+            />
             <h2 class="title">Ресторан Seafood</h2>
             <p class="post">Додаток</p>
           </li>
           <li>
-            <img src="./images/img4.jpg" alt="Проєкт Prime" width="370" height="294" />
+            <img src="./images/portfolio/prime.jpg" alt="Проєкт Prime" width="370" height="294" />
             <h2 class="title">Проєкт Prime</h2>
             <p class="post">Маркетинг</p>
           </li>
           <li>
-            <img src="./images/img5.jpg" alt="Проєкт Boxes" width="370" height="294" />
+            <img src="./images/portfolio/boxes.jpg" alt="Проєкт Boxes" width="370" height="294" />
             <h2 class="title">Проєкт Boxes</h2>
             <p class="post">Додаток</p>
           </li>
           <li>
             <img
-              src="./images/img6.jpg"
+              src="./images/portfolio/inspiration.jpg"
               alt="Inspiration has no Borders"
               width="370"
               height="294"
@@ -91,34 +110,44 @@
             <p class="post">Веб-сайт</p>
           </li>
           <li>
-            <img src="./images/img7.jpg" alt="Видання Limited Edition" width="370" height="294" />
+            <img
+              src="./images/portfolio/limedition.jpg"
+              alt="Видання Limited Edition"
+              width="370"
+              height="294"
+            />
             <h2 class="title">Видання Limited Edition</h2>
             <p class="post">Дизайн</p>
           </li>
           <li>
-            <img src="./images/img8.jpg" alt="Проєкт LAB" width="370" height="294" />
+            <img src="./images/portfolio/lab.jpg" alt="Проєкт LAB" width="370" height="294" />
             <h2 class="title">Проєкт LAB</h2>
             <p class="post">Маркетинг</p>
           </li>
           <li>
-            <img src="./images/img9.jpg" alt="Growing Business" width="370" height="294" />
+            <img
+              src="./images/portfolio/growing.jpg"
+              alt="Growing Business"
+              width="370"
+              height="294"
+            />
             <h2 class="title">Growing Business</h2>
             <p class="post">Додаток</p>
           </li>
         </ul>
       </section>
     </main>
-    <!--Contact Saction-->
-    <footer>
-      <a href="/" class="logo">WebStudio</a>
+    <!--Contact Section-->
+    <footer class="footer">
+      <a href="/" class="logo">Web<span class="studio">Studio</span></a>
       <address>
-        <ul class="auth-nav list">
+        <ul class="contact list">
           <li>
             <a
               href="https://goo.gl/maps/7zNhKzBeEA4Yudbg6"
               target="_blank"
               rel="noopener noreferrer nofollow"
-              class="link"
+              class="adres"
               >м. Київ, пр-т Лесі Українки, 26
             </a>
           </li>
