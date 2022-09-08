@@ -107,16 +107,6 @@ adress {
   letter-spacing: 0.06em;
 }
 
-/*Кнопки выбора портфолио*/
-.work-nav .link {
-  color: var(--primary-text-color);
-}
-
-.work-nav .link:hover,
-.work-nav .link:focus {
-  color: var(--accent-color);
-}
-
 /*Button*/
 .button {
   color: var(--primary-background-color);
